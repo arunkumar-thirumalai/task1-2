@@ -1,0 +1,38 @@
+Task 1
+Do a write up for the followings:
+1. Difference between HTTP1.1 vs HTTP2
+ HTTP1.1 keeps all requests and responses in plain text format whereas, HTTP2 uses the binary framing layer
+ to encapsulate all messages in binary format.
+
+2. HTTP version history
+HTTP (HyperText Transfer Protocol) is the underlying protocol of the World Wide Web, developed by Tim Berners-Lee and his team between 1989-1991Year.
+Following are the HTTP Versions has seen many changes, keeping most of the simplicity and further shaping its flexibility.
+Year   Version
+1991	0.9
+1996	1.0
+1997	1.1
+2015	2.0
+2020	3.0
+
+3. List 5 differences between Browser JS vs Node Js.
+			JS								Node Js
+a)Javascript can only be run in the browsers. 			a)NodeJS code can be run outside the browser.  
+
+b)Javascript can run in any browser engine as like 		b)Nodejs can only run in V8 engine of google chrome.
+JS core in safari and Spidermonkey in Firefox.
+
+c)Javascript is a programming language that is used 		c) NodeJS is a Javascript runtime environment.
+for writing scripts on the website.	
+
+d)It is basically used on the client-side.			d)It is mostly used on the server-side.
+
+e)Javascript is used in frontend development.			e)Nodejs is used in server-side development.
+
+4. what happens when you type a URL in the address bar in the browser?
+   1)Entering a URL into a web browser.
+   2)The browser looks up the IP address for the domain name via DNS.
+   3)The browser sends a HTTP request to the server.
+   4)The server sends back a HTTP response.
+   5)The browser begins rendering the HTML.
+   6)The browser sends requests for additional objects embedded in HTML (images, css, JavaScript) and repeats steps 3-5.
+   7)Once the page is loaded, the browser sends further async requests as needed.
